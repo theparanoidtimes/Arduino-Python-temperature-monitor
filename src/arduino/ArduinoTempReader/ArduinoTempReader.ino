@@ -50,13 +50,6 @@ void setup() {
   }
   debugSerialWrite("SD initialization done.");
 
-  debugSerialWrite("Initializing time module...");
-  rtc.writeProtect(false);
-  rtc.halt(false);
-  Time t(2016, 5, 10, 23, 9, 0, Time::kTuesday);
-  rtc.time(t);
-  debugSerialWrite("Time module initialization done.");
-
   debugSerialWrite("Initialization finished.");
 }
 
