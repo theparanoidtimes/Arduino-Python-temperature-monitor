@@ -22,7 +22,7 @@
 #include <stdio.h>
 #include <DS1302.h>
 
-bool debug = true;
+bool debug = false;
 String fileName = "Temp.txt";
 long readDelay = 120000;
 String delimeter = ";";
