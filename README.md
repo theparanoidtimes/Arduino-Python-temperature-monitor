@@ -22,22 +22,22 @@ matplotlib library.
 
 ![Arduino schema](/doc/sketch_final.png)
 
-Connect Arduino and the required modules like defined in the picture.
+- Connect Arduino and the required modules like defined in the picture.
 Use `ArduinoRealTimeClockModuleConfigurator` to setup the current time
 on the real time module. After that upload the `ArduinoTempReader` script.
 In the script delay between temperature measuring can be adjusted (currently
 it is set to 120000 millisecond). Also set the `debug` field to `true` if
 serial output is needed.
 
-On Python environment in the location of the script run `python setup.py py2exe`
+- On Python environment in the location of the script run `python setup.py py2exe`
 and copy the whole `dist` folder to the SC card.
 
-To record temperature data just plug the Arduino to the power supply and it will
+- To record temperature data just plug the Arduino to the power supply and it will
 start to record. Temperature will be recorded on SC card in `TEMP.TXT` file.
 
-When recording is done, load SD card on the presenting environment and run `dist/main.exe`.
+- When recording is done, load SD card on the presenting environment and run `dist/main.exe`.
 The temperature plot will be saved in the file on SD card. File name will be in the format
-temp_<last time recorded>.png.
+temp_&lt;last time recorded&gt;.png.
 
 **TODO** - Implement independent power supply for Arduino and a proper case.
 
@@ -45,4 +45,4 @@ temp_<last time recorded>.png.
 
 Distributed under GNU GENERAL PUBLIC LICENSE Version 2.
 
-Copyright © Dejan Josifovic, theparanoidtimes 2016.
+Copyright Â© Dejan Josifovic, theparanoidtimes 2016.
