@@ -8,7 +8,7 @@ data to a persistent memory (SD card).
 
 Arduino Nano is used with DS18S20 temperature cable sensor.
 DS1302 is the real time module used and an SC card module. One 4.7k resistor
-is needed. See doc/sketch_final.png for details.
+is needed. See [Usage](#Usage) for details.
 
 External Arduino libraries used are OneWire and DS1302.
 
