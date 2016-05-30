@@ -20,7 +20,7 @@ matplotlib library.
 
 ## Usage
 
-![Arduino schema](/doc/sketch_final.png)"Arduino schema"
+![Arduino schema](/doc/sketch_final.png "Arduino schema")
 
 - Connect Arduino and the required modules like defined in the picture.
 Use `ArduinoRealTimeClockModuleConfigurator` to setup the current time
