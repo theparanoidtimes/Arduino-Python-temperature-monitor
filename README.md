@@ -8,7 +8,7 @@ data to a persistent memory (SD card).
 
 Arduino Nano is used with DS18S20 temperature cable sensor.
 DS1302 is the real time module used and an SC card module. One 4.7k resistor
-is needed. See [Usage](#Usage) for details.
+is needed. See **Usage** for details.
 
 External Arduino libraries used are OneWire and DS1302.
 
@@ -23,6 +23,7 @@ matplotlib library.
 ![Arduino schema](/doc/sketch_final.png "Arduino schema")
 
 - Connect Arduino and the required modules like defined in the picture.
+Red wire marks the power supply and black marks the ground connection.
 Use `ArduinoRealTimeClockModuleConfigurator` to setup the current time
 on the real time module. After that upload the `ArduinoTempReader` script.
 In the script delay between temperature measuring can be adjusted (currently
