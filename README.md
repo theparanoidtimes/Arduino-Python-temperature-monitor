@@ -68,7 +68,7 @@ file.
 `setup.py` is provided to be used with [py2exe](http://www.py2exe.org/) to
 create a standalone executable of this script. This executable should be stored
 in the same SC card where the temperature data will be written. When the data
-is collected executable can be run to provide the graph. See the *doc/*
+is collected executable can be run to provide the graph. See the *[doc/](/doc)*
 directory for a sample graph.
 
 Since *py2exe* is used this only works on Windows and currently system on which
@@ -87,7 +87,7 @@ development.
 
 The first phase was a proof-of-concept build. Both Arduino Uno and Arduino Nano
 were used in this phase. All modules were connected via Arduino breadboard. See
-*doc/* directory for layout schema and snapshots. Pin configuration is
+*[doc/](/doc)* directory for layout schema and snapshots. Pin configuration is
 documented in *ArduinoTempMonitor* sketch.
 
 ### Phase 2
@@ -106,8 +106,8 @@ details [here](http://bildr.org/2011/07/ds18b20-arduino/).
 Power wires are soldered together and conveyed to Arduino 5V power pin. Same
 thing is done with ground wires.
 
-See *doc/* directory for some snapshots. Pin configuration is documented in
-*ArduinoTempMonitor* sketch.
+See *[doc/](/doc)* directory for some snapshots. Pin configuration is documented
+in *ArduinoTempMonitor* sketch.
 
 ### Phase 3
 
