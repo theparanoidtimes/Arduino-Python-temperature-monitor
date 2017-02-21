@@ -33,7 +33,7 @@ Arduino code and setup is responsible for reading and storing temperature data.
 Modules currently used are DS18S20 temperature cable sensor, DS1302 real time
 module and regular SD card module. Also one 4.7k resistor is needed for
 temperature sensor. For assembly details see
-[Development / assembly](#development-/-assembly).
+[Development / assembly](#development--assembly).
 
 The main code is located in *ArduinoTempMonitor* sketch. It uses a very simple
 approach - while looping it reads temperature data, reads current time and
