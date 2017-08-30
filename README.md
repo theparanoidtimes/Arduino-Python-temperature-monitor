@@ -122,4 +122,4 @@ in *ArduinoTempMonitor* sketch.
 
 Distributed under GNU GENERAL PUBLIC LICENSE Version 2.
 
-Copyright © Dejan Josifović, theparanoidtimes 2016.
+Copyright © Dejan Josifović, the paranoid times 2016.
